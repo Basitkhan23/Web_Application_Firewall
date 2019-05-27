@@ -1,0 +1,41 @@
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(
+      90deg,
+      fade-out($white, 0.9) 0%,
+      fade-out($white, 0.9) 100%
+    ),
+    url("./img/01.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    //background-color: rgba(0,0,0,.5); 
+    color: black;
+    //background: rgba(196, 223, 197, 0.3);
+    font-family: Laksaman, Arial, Helvetica, sans-serif;
+    //font-style: italic;
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+   
+    h3{
+      font-style: normal;
+      margin: 0;
+      padding: 0;
+      color: black;
+      //background-color: aqua;
+      //background: rgba(196, 223, 197, 0.3);
+      
+    }
+  }
+}
